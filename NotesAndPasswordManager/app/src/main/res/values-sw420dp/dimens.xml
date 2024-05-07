@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="dim_1">1.5dp</dimen>
+    <dimen name="dim_2">3dp</dimen>
+    <dimen name="dim_3">4.5dp</dimen>
+    <dimen name="dim_10">15dp</dimen>
+
+    <dimen name="font_size_10">15sp</dimen>
+    <dimen name="activity_horizontal_margin">64dp</dimen>
+
+</resources>

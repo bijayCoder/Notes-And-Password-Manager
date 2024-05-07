@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="400dp"
+    android:background="@color/box_color"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txt_encrypt_decrypt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/toolbar_background"
+        android:textSize="25sp"/>
+    <EditText
+        android:id="@+id/edt_encrypt_decrypt"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/inside_dialog_box_color"
+        android:layout_margin="40dp"
+        android:textColorHint="@color/gray"
+        android:textColor="@color/white"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_encrypt_decrypt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="30dp"
+        android:background="@color/inside_dialog_box_color">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/txt_show_encrypt_decrypt"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:gravity="center_vertical"
+            android:paddingStart="5dp"
+            android:paddingEnd="2dp" />
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/btn_copy_encrypt_decrypt"
+            android:background="@android:color/transparent"
+            android:src="@drawable/baseline_content_copy_24"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:contentDescription="@string/username_copy_button" />
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

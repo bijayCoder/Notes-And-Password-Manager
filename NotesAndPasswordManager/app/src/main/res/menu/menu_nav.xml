@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="none"
+        android:id="@+id/group_2">
+        <item android:id="@+id/menu_nav_notes"
+            android:title="Notes Manager"
+            android:icon="@drawable/notes_icon"/>
+    </group>
+    <group android:checkableBehavior="none"
+        android:id="@+id/group_one">
+        <item android:id="@+id/menu_nav_generate_pass"
+            android:title="Generate Password"
+            android:icon="@drawable/key_icon"/>
+
+        <item android:id="@+id/menu_nav_store_pass"
+            android:title="Store Password"
+            android:icon="@drawable/key_icon"/>
+
+        <item android:id="@+id/menu_nav_encrypt_pass"
+            android:title="Encrypt Password"
+            android:icon="@drawable/lock_icon"/>
+
+        <item android:id="@+id/menu_nav_decrypt_pass"
+            android:title="Decrypt Password"
+            android:icon="@drawable/lock_icon"/>
+
+        <item android:id="@+id/menu_nav_see_all_pass"
+            android:title="See All Passwords"
+            android:icon="@drawable/list_icon"/>
+    </group>
+
+
+    <group android:id="@+id/group_3"
+        android:checkableBehavior="none">
+
+        <item android:id="@+id/menu_nav_about"
+            android:title="About"
+            android:icon="@drawable/about_icon"/>
+
+    </group>
+
+</menu>

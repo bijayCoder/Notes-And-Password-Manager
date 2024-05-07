@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="green">#00c000</color>
+    <color name="primary_color">#9A2501</color>
+    <color name="primary_variant">#807979</color>
+    <color name="toolbar_background">#FF3D00</color>
+    <color name="fade_white">#CDCDCD</color>
+    <color name="nav_drawer_color">#393939</color>
+
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+
+    <color name="card_color_1">#FBCCBD</color>
+    <color name="card_color_2">#FFF497</color>
+    <color name="gray">#909090</color>
+
+    <color name="dark_green">#008000</color>
+    <color name="pink">#FF3177</color>
+    <color name="light_pink">#FF74A3</color>
+    <color name="dark_pink">#CD0046</color>
+    <color name="orange">#FF5722</color>
+    <color name="light_blue">#BCE4E8</color>
+    <color name="medium_blue">#189AB4</color>
+    <color name="light_green">#C8FF87</color>
+    <color name="box_color">#1c1c1c</color>
+    <color name="inside_dialog_box_color">#2E2B2B</color>
+
+
+
+</resources>
